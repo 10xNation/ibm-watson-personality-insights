@@ -1,0 +1,11 @@
+---
+applications:
+  # Application name
+- name: xxxxxxxxxxxxxxx
+  command: npm start
+  path: .
+  memory: 512M
+  instances: 1
+  services:
+    # Service name
+  - Personality Insights-Demo
